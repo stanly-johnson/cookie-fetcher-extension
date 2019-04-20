@@ -2,12 +2,11 @@
   "name": "Privacy Extension",
   "version": "1.0",
   "description": "View the data sites are trying to access",
-  "permissions": ["activeTab"],
+  "permissions": ["cookies", "activeTab", "<all_urls>"],
   "browser_action": {
-    "default_icon": "images/icon.png"
-  },
-  "background": {
-    "scripts": ["scripts/background.js"]
+    "default_icon": "images/icon.png",
+    "default_popup": "html/popup.html",
+    "default_title": "Privacy Extension"
   },
   "content_scripts": [
     {
