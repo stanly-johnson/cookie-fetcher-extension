@@ -7,6 +7,6 @@ Follow instructions at <https://developer.chrome.com/extensions/getstarted> to i
 Make sure to switch to developer mode in chrome.
 The plugin is a beta version; use at your own risk.
 
-###Screenshot
+### Screenshot
 
 ![privacy plugin](/images/screenshot.png)
