@@ -2,5 +2,12 @@
   "name": "Privacy Extension",
   "version": "1.0",
   "description": "View the data sites are trying to access",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_title": "Have a good day"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
   "manifest_version": 2
 }
